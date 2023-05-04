@@ -30,7 +30,7 @@ class ProductManager {
     price: 8000,
     thumbnail: 'https://acortar.link/k9XeOz',
     code: 'campera23',
-    stock: 15,
+    stock: 25,
   });
 
 

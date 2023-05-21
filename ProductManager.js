@@ -76,6 +76,15 @@ class ProductManager {
     code: 'campera23',
     stock: 25,
   });
+
+  productManager.addProduct({
+    title: 'Gorra',
+    description: 'gorra de béisbol',
+    price: 2000,
+    thumbnail: 'https://acortar.link/gorra',
+    code: 'gorra10',
+    stock: 30,
+  });
   
   console.log(productManager.getProducts());
   
@@ -88,6 +97,8 @@ class ProductManager {
     })
   );
   
-  console.log(productManager.deleteProduct(2));
+  module.exports = ProductManager;
+
   
   console.log(productManager.getProducts());
+
